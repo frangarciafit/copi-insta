@@ -3,15 +3,31 @@
     padding: 0%;
     box-sizing: border-box;
 }
+body{
+    background-color: aqua;
+}
 nav{
     display: flex;
     position: fixed;
 }
+.card{
+    text-align: center;
+}
 .card-nav{
     border: 3px solid #ddd;
     font-size: 10px;
+    font-weight: bolder;
 }
-
+.card-nav .name{
+    font-weight: bolder;
+}
+.card-img{
+    width: 600px;
+    height: auto;
+}
+.card-img img{
+    object-fit: cover;
+}
 .card-footer{
     border: 1px solid salmon;
     padding: 10px;
